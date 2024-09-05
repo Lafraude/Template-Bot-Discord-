@@ -1,36 +1,36 @@
-# 🤖 Modèle de Bot Discord en Node.js
+# 🤖 Discord Bot Template in Node.js
 
-Ce projet est un modèle de bot Discord minimaliste, conçu pour fournir une base solide pour démarrer rapidement la création de votre propre bot en Node.js.
+This project is a minimalist Discord bot template, designed to provide a solid foundation to quickly start creating your own bot in Node.js.
 
-## ⚙️ Fonctionnalités
+## ⚙️ Features
 
-- 🏗️ **Structure prête à l'emploi** : Un squelette propre et organisé pour démarrer votre projet de bot Discord sans avoir à tout configurer manuellement.
-- 🔧 **Extensible** : Facile à personnaliser et à étendre avec des fonctionnalités supplémentaires selon vos besoins.
-- 🚀 **Évolutif** : Structure conçue pour ajouter de nouvelles commandes et événements Discord sans complexité excessive.
+- 🏗️ **Ready-to-use structure**: A clean and organized skeleton to kickstart your Discord bot project without manual setup.
+- 🔧 **Extensible**: Easily customizable and extendable with additional features as needed.
+- 🚀 **Scalable**: Structure designed to add new commands and Discord events without excessive complexity.
 
-## 📋 Prérequis
+## 📋 Prerequisites
 
-Avant de commencer, assurez-vous d'avoir les éléments suivants :
+Before getting started, make sure you have the following:
 
-- 🖥️ [Node.js](https://nodejs.org/) (v14 ou plus récent)
-- 🔑 Un [token de bot Discord](https://discord.com/developers/applications) (obtenu via le portail des développeurs Discord)
-- ✏️ Un éditeur de texte comme [VSCode](https://code.visualstudio.com/)
+- 🖥️ [Node.js](https://nodejs.org/) (v14 or newer)
+- 🔑 A [Discord bot token](https://discord.com/developers/applications) (obtained from the Discord developer portal)
+- ✏️ A text editor like [VSCode](https://code.visualstudio.com/)
 
 ## 🚀 Installation
 
-1. 📥 Clonez ce dépôt sur votre machine :
+1. 📥 Clone this repository to your machine:
 
     ```bash
-    git clone https://github.com/votre-utilisateur/bot-discord-modele.git
+    git clone https://github.com/your-username/discord-bot-template.git
     ```
 
-2. 🗂️ Accédez au dossier du projet :
+2. 🗂️ Navigate to the project folder:
 
     ```bash
-    cd bot-discord-modele
+    cd discord-bot-template
     ```
 
-3. 📦 Installez les dépendances nécessaires :
+3. 📦 Install the required dependencies:
 
     ```bash
     npm install_modules.js
@@ -38,20 +38,20 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants :
 
 ## ⚙️ Configuration
 
-1. 📝 Configurez le fichier `config.json` :
+1. 📝 Configure the `config.json` file:
 
     ```bash
    config.json
     ```
 
-2. 🛠️ Ouvrez le fichier `config.json` et renseignez les informations suivantes :
+2. 🛠️ Open the `config.json` file and provide the following information:
 
-    - 🔑 `TOKEN` : Le token de votre bot Discord
-    - 🆔 `CLIENDID` : Le clientId de votre bot Discord
+    - 🔑 `TOKEN`: Your Discord bot token
+    - 🆔 `CLIENTID`: Your bot's client ID
 
-## ▶️ Utilisation
+## ▶️ Usage
 
-Une fois les étapes précédentes terminées, vous pouvez lancer le bot avec la commande suivante :
+Once the previous steps are completed, you can start the bot with the following command:
 
 ```bash
 npm index.js
