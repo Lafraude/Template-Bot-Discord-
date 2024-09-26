@@ -21,7 +21,7 @@ Before getting started, make sure you have the following:
 1. 📥 Clone this repository to your machine:
 
     ```bash
-    git clone https://github.com/your-username/discord-bot-template.git
+    git clone https://github.com/Lafraude/discord-bot-template.git
     ```
 
 2. 🗂️ Navigate to the project folder:
